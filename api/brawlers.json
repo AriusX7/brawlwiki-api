@@ -1,0 +1,333 @@
+{
+    "Shelly": {
+        "name": "Shelly",
+        "description": "Shelly's spread-fire shotgun blasts the other team with buckshot. Her Super destroys cover and keeps her opponents at a distance!",
+        "rarity": "Starting Brawler",
+        "required_trophies": 0,
+        "health": 3600,
+        "speed": 720,
+        "class": "Fighter",
+        "attack": {
+            "name": "Buckshot",
+            "value": 300,
+            "action": "Damage",
+            "description": "Shelly's boomstick fires a wide spread of pellets to a medium range. The more pellets hit, the greater the damage.",
+            "projectiles": 5,
+            "range": 7.67,
+            "reload": 1.5
+        },
+        "super": {
+            "name": "Super Shell",
+            "value": 320,
+            "action": "Damage and knockback",
+            "description": "Shelly's Super Shell obliterates both cover and enemies. Any survivors get knocked back.",
+            "hits_required": 11,
+            "projectiles": 9,
+            "range": 7.33
+        },
+        "star_powers": {
+            "first": {
+                "name": "Shell Shock",
+                "description": "Shelly's Super shells slow down enemies for {} seconds!",
+                "values": [
+                    3.0
+                ]
+            },
+            "second": {
+                "name": "Band-Aid",
+                "description": "When Shelly falls below {}% health, she instantly heals for {} health. Band-Aid recharges in {} seconds.",
+                "values": [
+                    40,
+                    1800,
+                    20.0
+                ]
+            }
+        },
+        "skins": {
+            "regular": {
+                "Bandita": {
+                    "cost": 30,
+                    "currency": "Gems"
+                }
+            },
+            "special": {
+                "Star": {
+                    "cost": 0,
+                    "currency": "Gems",
+                    "event": "2018 Pre-registration"
+                },
+                "Witch": {
+                    "cost": 150,
+                    "currency": "Gems",
+                    "event": "2019 Brawl-o-ween"
+                }
+            }
+        },
+        "stats": {
+            "offense": 4,
+            "defense": 3,
+            "utility": 2
+        },
+        "voice_lines": {
+            "start_of_battle": [
+                "Let's go!",
+                "Let's go get 'em.",
+                "Let's do this.",
+                "Shelly laughs"
+            ],
+            "when_in_lead": [
+                "Winning.",
+                "Bling bling.",
+                "¡Increíble!",
+                "¡Fantástico!"
+            ],
+            "once_hurt": [
+                "Shelly whimpers",
+                "Shelly groans"
+            ],
+            "getting_kill": [
+                "¡Así me gusta!",
+                "Yes!",
+                "Yippee!",
+                "Woo-hoo!",
+                "Shelly laughs"
+            ],
+            "when_dying": [
+                "No!",
+                "Shelly groans"
+            ],
+            "when_attacking": [],
+            "using_super": [
+                "Boom!",
+                "Bang!",
+                "Shelly laughs"
+            ]
+        }
+    },
+    "Nita": {
+        "name": "Nita",
+        "description": "Nita strikes her enemies with a thunderous shockwave. Her Super summons a massive bear to fight by her side!",
+        "rarity": "Trophy Road",
+        "required_trophies": 10,
+        "health": 4000,
+        "speed": 720,
+        "class": "Fighter",
+        "attack": {
+            "name": "Rupture",
+            "value": 800,
+            "action": "Damage",
+            "description": "Nita sends forth a shockwave, damaging enemies caught in the tremor.",
+            "projectiles": 1,
+            "range": 5.5,
+            "reload": 1.25
+        },
+        "super": {
+            "name": "Overbearing",
+            "value": null,
+            "action": "Spawn",
+            "description": "Nita summons the spirit of Big Baby Bear to hunt down her enemies.",
+            "hits_required": 7,
+            "projectiles": 1,
+            "range": 4.67,
+            "spawn": {
+                "name": "Bear",
+                "damage": 400,
+                "health": 4000,
+                "range": 1.33,
+                "speed": 620
+            }
+        },
+        "star_powers": {
+            "first": {
+                "name": "Bear with Me",
+                "description": "Nita recovers {} health whenever her bear hits an enemy. When Nita deals damage, her bear regains {} health.",
+                "values": [
+                    500,
+                    500
+                ]
+            },
+            "second": {
+                "name": "Hyper Bear",
+                "description": "Nita's bear attacks faster. Time between swipes is reduced by {}%.",
+                "values": [
+                    60
+                ]
+            }
+        },
+        "skins": {
+            "regular": {
+                "Panda": {
+                    "cost": 30,
+                    "currency": "Gems"
+                },
+                "Koala": {
+                    "cost": 80,
+                    "currency": "Gems"
+                },
+                "Shiba": {
+                    "cost": 150,
+                    "currency": "Gems"
+                }
+            },
+            "special": {
+                "Red Nose": {
+                    "cost": 109,
+                    "currency": "Gems",
+                    "event": "2018 Brawlidays"
+                }
+            }
+        },
+        "stats": {
+            "offense": 3,
+            "defense": 4,
+            "utility": 2
+        },
+        "voice_lines": {
+            "start_of_battle": [
+                "Nita!",
+                "Mwahaha!",
+                "Yeah!"
+            ],
+            "when_in_lead": [
+                "Nita yells",
+                "Nita laughs"
+            ],
+            "once_hurt": [
+                "Nita whimpers"
+            ],
+            "getting_kill": [
+                "Nita laughs"
+            ],
+            "when_dying": [
+                "Nita whimpers"
+            ],
+            "when_attacking": [
+                "Nita yells"
+            ],
+            "using_super": [
+                "Nita shrieks",
+                "Bear!",
+                "Mwahaha!"
+            ]
+        }
+    },
+    "Colt": {
+        "name": "Colt",
+        "description": "Colt fires an accurate burst of bullets from his dual revolvers. His Super shreds cover and extends the bullet barrage!",
+        "rarity": "Trophy Road",
+        "required_trophies": 60,
+        "health": 2800,
+        "speed": 720,
+        "class": "Sharpshooter",
+        "attack": {
+            "name": "Six-Shooters",
+            "value": 300,
+            "action": "Damage",
+            "description": "Colt shoots six straight long-range shots out of his revolvers.",
+            "projectiles": 6,
+            "range": 8.67,
+            "reload": 1.6
+        },
+        "super": {
+            "name": "Bullet Storm",
+            "value": 300,
+            "action": "Damage",
+            "description": "Colt rattles off a massive burst of bullets that shoot extra far and destroy cover.",
+            "hits_required": 12,
+            "projectiles": 12,
+            "range": 11
+        },
+        "star_powers": {
+            "first": {
+                "name": "Slick Boots",
+                "description": "Colt's movement speed is increased by {}%.",
+                "values": [
+                    10
+                ]
+            },
+            "second": {
+                "name": "Magnum Special",
+                "description": "Colt's attack range and bullet speed are increased by {}%.",
+                "values": [
+                    11
+                ]
+            }
+        },
+        "skins": {
+            "regular": {
+                "Rockstar": {
+                    "cost": 30,
+                    "currency": "Gems"
+                },
+                "Outlaw": {
+                    "cost": 500,
+                    "currency": "Star Points"
+                }
+            },
+            "special": {
+                "Royal Agent": {
+                    "cost": 150,
+                    "currency": "Gems",
+                    "event": "2018 Lunar Brawl"
+                },
+                "Corsair": {
+                    "cost": 150,
+                    "currency": "Gems",
+                    "event":"2019 Brawlidays"
+                }
+            }
+        },
+        "stats": {
+            "offense": 5,
+            "defense": 2,
+            "utility": 2
+        },
+        "voice_lines": {
+            "start_of_battle": [
+                "Brawn and beauty.",
+                "Time for trouble.",
+                "Too pretty for pain.",
+                "Watch out, here I come!"
+            ],
+            "when_in_lead": [
+                "Selfie time.",
+                "Primetime baby!",
+                "Heh, watch and learn.",
+                "I'm too good!",
+                "Number one!"
+            ],
+            "once_hurt": [
+              "Ow!",
+              "Not the face!",
+              "Hey! Watch it!",
+              "That hurts!",
+              "Colt whimpers",
+              "Cheater!",
+              "No way!",
+              "Colt groans"
+            ],
+            "getting_kill": [
+                "Check out my head shot.",
+                "Oh, that's gotta hurt.",
+                "That's gotta hurt.",
+                "Sorry noob.",
+                "Colt laughs",
+                "Nice head shot.",
+                "Yes!"
+            ],
+            "when_dying": [
+                "I want my mommy!",
+                "I'm too pretty!",
+                "Have mercy!",
+                "Colt whimpers"
+            ],
+            "when_attacking": [],
+            "using_super": [
+                "Pew pew pew!",
+                "Bullet storm!",
+                "This is too easy!",
+                "Check out my guns, ha ha ha!"
+            ]
+        }
+    }
+}
